@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: black;
+}
+.conteiner{
+    width: 100vw;
+    min-height: 60px;
+}
+.card-conteiner{
+    
+}
+.button-conteiner{
+    text-align: end;
+    padding: 5px;
+}
+.button-conteiner > button{
+    background-color: #4B4B4B;
+    border-radius: 10% 10px;
+    padding: 0.25rem;
+    
+}
+button{
+    
+    color: white;
+}
+img{
+    width: 25%;
+}
