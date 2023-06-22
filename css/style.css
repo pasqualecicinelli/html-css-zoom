@@ -3,30 +3,60 @@
     margin: 0;
     padding: 0;
 }
-header{
+body{
     background-color: black;
 }
-.conteiner{
+.container{
     width: 100vw;
     min-height: 60px;
 }
-.card-conteiner{
-    
+.card-container{
+    width: 100vw;
 }
-.button-conteiner{
+.button-container{
     text-align: end;
     padding: 5px;
 }
-.button-conteiner > button{
+.button-container > button{
     background-color: #4B4B4B;
     border-radius: 10% 10px;
     padding: 0.25rem;
     
 }
-button{
-    
+button,i,a{
     color: white;
 }
+
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-col{
+    flex-direction: column;
+}
+.just-cent{
+    justify-content: center;
+}
+.align-it-cent{
+    align-items: center;
+}
 img{
-    width: 25%;
+   
+}
+.card{
+    position: relative;
+    margin: 10px 2px;
+}
+.author{
+    position: absolute;
+    bottom:4px;
+    color: white;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
 }
