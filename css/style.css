@@ -1,62 +1,137 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-.container{
-    width: 100vw;
-    min-height: 60px;
+
+footer {
+
+    height: 80px;
+    background-color: #222222;
+    margin-top: 60px;
 }
-.card-container{
-    width: 100vw;
+
+.big-container {
+    height: 100vh;
 }
-.button-container{
+
+header {
+
+    height: 80px;
+}
+
+.card-container {
+    height: calc(100vh- 80px - 80px);
+}
+
+.button-container {
     text-align: end;
     padding: 5px;
 }
-.button-container > button{
+
+.button-container>.but {
     background-color: #4B4B4B;
-    border-radius: 10% 10px;
+    border-radius: 0.5rem;
     padding: 0.25rem;
-    
+    min-height: 20px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 5px;
+
 }
-button,i,a{
+.but,
+i,
+.link-foot {
     color: white;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.flex-row{
+
+.flex-row {
     flex-direction: row;
 }
-.flex-col{
+
+.flex-col {
     flex-direction: column;
 }
-.just-cent{
+
+.just-cent {
     justify-content: center;
 }
-.align-it-cent{
+
+.align-it-cent {
     align-items: center;
 }
-img{
-   
+
+.just-betw {
+    justify-content: space-between;
+
 }
-.card{
+
+.just-end {
+    justify-content: flex-end;
+}
+
+.align-cont-cent {
+    align-content: center;
+}
+
+.card {
     position: relative;
-    margin: 10px 2px;
+    margin: 10px 5px;
+    height: 150px;
+    width: 250px;
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.author{
+
+.author {
     position: absolute;
-    bottom:4px;
+    left: 0;
+    bottom: 0;
     color: white;
     padding: 7px;
     background-color: rgba(0, 0, 0, 0.3);
-    
+
+}
+
+.fa-foot {
+    margin: 5px 15px;
+    font-size: 1.75rem;
+}
+
+.link-foot {
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+}
+
+.fa-chevron-up {
+    margin: 0 10px;
+    font-size: 0.5rem;
+}
+.icon{
+    margin: 0 10px;
+    gap: 5px;
+}
+.link-foot >.fa-regular{
+    color: #4BC504;
+}
+.right-foot{
+    width: 150px;
+    height: 80px;
+    background-color: #4A4A4A;
+    color: red;
 }
